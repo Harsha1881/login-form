@@ -1,0 +1,28 @@
+.success-container {
+  width: 360px;
+  margin: 100px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+.success-container h2 {
+  color: #16a34a;
+  margin-bottom: 15px;
+}
+
+.success-container p {
+  margin-bottom: 20px;
+  color: #374151;
+}
+
+.success-container button {
+  padding: 10px 20px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
