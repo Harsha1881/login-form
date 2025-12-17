@@ -1,0 +1,22 @@
+.home-container {
+  width: 360px;
+  margin: 100px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+.home-container h2 {
+  color: #16a34a;
+  margin-bottom: 15px;
+}
+
+.home-container p {
+  color: #374151;
+  font-size: 14px;
+}
+.success-msg {
+  color: #16a34a;
+}

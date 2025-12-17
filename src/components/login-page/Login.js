@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link , useNavigate} from "react-router-dom";
 import "./Login.css";
 
 export default function Login() {
@@ -7,6 +7,8 @@ export default function Login() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+
+  const naviagte = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -30,7 +32,7 @@ export default function Login() {
       if (!res.ok) {
         setError(data.message || "Login failed");
       } else {
-        console.log("Login success", data);
+        naviagte("/home");
       }
     } catch {
       setError("Server error");
